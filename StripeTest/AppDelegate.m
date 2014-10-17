@@ -7,16 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "Stripe.h"
 
 @interface AppDelegate ()
 
 @end
+
+NSString * const StripePublishableKey = @"pk_test_1yLf5Zqe0ov2nXHL9k4cBqIO";
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Stripe setDefaultPublishableKey:StripePublishableKey];
     return YES;
 }
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PaymentViewController.h
 //  StripeTest
 //
 //  Created by Leonard Li on 10/13/14.
@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Stripe.h>
 
-@interface ViewController : UIViewController
-
+@interface PaymentViewController : UIViewController
 
 @end
-

@@ -14,6 +14,9 @@
 		0D7F9D1419EC470F00C5C2EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7F9D1319EC470F00C5C2EC /* Images.xcassets */; };
 		0D7F9D1719EC470F00C5C2EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D7F9D1519EC470F00C5C2EC /* LaunchScreen.xib */; };
 		0D7F9D2319EC470F00C5C2EC /* StripeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F9D2219EC470F00C5C2EC /* StripeTestTests.m */; };
+		0D7F9D2F19EC550F00C5C2EC /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F9D2E19EC550F00C5C2EC /* PaymentViewController.m */; };
+		9B38CC2ECB0133DE5C6779B0 /* libPods-StripeTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EE455B04270776B6F1D8E0 /* libPods-StripeTestTests.a */; };
+		B2F3CA284B192ABA23D50FA8 /* libPods-StripeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2754849C14FBFA88FAA1A4 /* libPods-StripeTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,15 @@
 		0D7F9D1C19EC470F00C5C2EC /* StripeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StripeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7F9D2119EC470F00C5C2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D7F9D2219EC470F00C5C2EC /* StripeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripeTestTests.m; sourceTree = "<group>"; };
+		0D7F9D2C19EC4DC500C5C2EC /* StripeTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = StripeTest.entitlements; sourceTree = "<group>"; };
+		0D7F9D2D19EC550F00C5C2EC /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		0D7F9D2E19EC550F00C5C2EC /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		0DFF1B8E72EA89BACEA7FFD3 /* Pods-StripeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StripeTest/Pods-StripeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		345407FA7BB2FE7854A037DB /* Pods-StripeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StripeTestTests/Pods-StripeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D2754849C14FBFA88FAA1A4 /* libPods-StripeTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StripeTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EE455B04270776B6F1D8E0 /* libPods-StripeTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StripeTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF144E86E9432149D1074C4 /* Pods-StripeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StripeTestTests/Pods-StripeTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBE510D6FD98673943040387 /* Pods-StripeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-StripeTest/Pods-StripeTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F3CA284B192ABA23D50FA8 /* libPods-StripeTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B38CC2ECB0133DE5C6779B0 /* libPods-StripeTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,8 @@
 				0D7F9D0519EC470F00C5C2EC /* StripeTest */,
 				0D7F9D1F19EC470F00C5C2EC /* StripeTestTests */,
 				0D7F9D0419EC470F00C5C2EC /* Products */,
+				E70681B41CF8EC0AEDE1B721 /* Pods */,
+				CB7E2A3E68D25379D4E01BB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +97,13 @@
 		0D7F9D0519EC470F00C5C2EC /* StripeTest */ = {
 			isa = PBXGroup;
 			children = (
+				0D7F9D2C19EC4DC500C5C2EC /* StripeTest.entitlements */,
 				0D7F9D0A19EC470F00C5C2EC /* AppDelegate.h */,
 				0D7F9D0B19EC470F00C5C2EC /* AppDelegate.m */,
 				0D7F9D0D19EC470F00C5C2EC /* ViewController.h */,
 				0D7F9D0E19EC470F00C5C2EC /* ViewController.m */,
+				0D7F9D2D19EC550F00C5C2EC /* PaymentViewController.h */,
+				0D7F9D2E19EC550F00C5C2EC /* PaymentViewController.m */,
 				0D7F9D1019EC470F00C5C2EC /* Main.storyboard */,
 				0D7F9D1319EC470F00C5C2EC /* Images.xcassets */,
 				0D7F9D1519EC470F00C5C2EC /* LaunchScreen.xib */,
@@ -119,6 +138,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CB7E2A3E68D25379D4E01BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D2754849C14FBFA88FAA1A4 /* libPods-StripeTest.a */,
+				51EE455B04270776B6F1D8E0 /* libPods-StripeTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E70681B41CF8EC0AEDE1B721 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DFF1B8E72EA89BACEA7FFD3 /* Pods-StripeTest.debug.xcconfig */,
+				BBE510D6FD98673943040387 /* Pods-StripeTest.release.xcconfig */,
+				345407FA7BB2FE7854A037DB /* Pods-StripeTestTests.debug.xcconfig */,
+				ABF144E86E9432149D1074C4 /* Pods-StripeTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D7F9D2619EC470F00C5C2EC /* Build configuration list for PBXNativeTarget "StripeTest" */;
 			buildPhases = (
+				C0741C4C0A653A4754E547D6 /* Check Pods Manifest.lock */,
 				0D7F9CFF19EC470F00C5C2EC /* Sources */,
 				0D7F9D0019EC470F00C5C2EC /* Frameworks */,
 				0D7F9D0119EC470F00C5C2EC /* Resources */,
+				E455068AE582E47FAAF6164A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D7F9D2919EC470F00C5C2EC /* Build configuration list for PBXNativeTarget "StripeTestTests" */;
 			buildPhases = (
+				780AA7275901BC6A98B0292A /* Check Pods Manifest.lock */,
 				0D7F9D1819EC470F00C5C2EC /* Sources */,
 				0D7F9D1919EC470F00C5C2EC /* Frameworks */,
 				0D7F9D1A19EC470F00C5C2EC /* Resources */,
+				A14FDE195B0768D73FF5A988 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +211,12 @@
 				TargetAttributes = {
 					0D7F9D0219EC470F00C5C2EC = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 952ZU65CH6;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
 					};
 					0D7F9D1B19EC470F00C5C2EC = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -214,6 +263,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		780AA7275901BC6A98B0292A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A14FDE195B0768D73FF5A988 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StripeTestTests/Pods-StripeTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0741C4C0A653A4754E547D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E455068AE582E47FAAF6164A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StripeTest/Pods-StripeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D7F9CFF19EC470F00C5C2EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +334,7 @@
 				0D7F9D0F19EC470F00C5C2EC /* ViewController.m in Sources */,
 				0D7F9D0C19EC470F00C5C2EC /* AppDelegate.m in Sources */,
 				0D7F9D0919EC470F00C5C2EC /* main.m in Sources */,
+				0D7F9D2F19EC550F00C5C2EC /* PaymentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +399,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = STRIPE_ENABLE_APPLEPAY;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -326,6 +436,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = STRIPE_ENABLE_APPLEPAY;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -341,26 +452,37 @@
 		};
 		0D7F9D2719EC470F00C5C2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFF1B8E72EA89BACEA7FFD3 /* Pods-StripeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StripeTest/StripeTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StripeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		0D7F9D2819EC470F00C5C2EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE510D6FD98673943040387 /* Pods-StripeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StripeTest/StripeTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StripeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		0D7F9D2A19EC470F00C5C2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345407FA7BB2FE7854A037DB /* Pods-StripeTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -380,6 +502,7 @@
 		};
 		0D7F9D2B19EC470F00C5C2EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF144E86E9432149D1074C4 /* Pods-StripeTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,6 +535,7 @@
 				0D7F9D2819EC470F00C5C2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D7F9D2919EC470F00C5C2EC /* Build configuration list for PBXNativeTarget "StripeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +544,7 @@
 				0D7F9D2B19EC470F00C5C2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
